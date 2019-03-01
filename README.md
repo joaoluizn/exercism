@@ -1,2 +1,2 @@
-# exercism
-My exercism rapo with my track resolutions
+# Exercism Python Solutions
+My personal solutions for Exercism Python Track.
