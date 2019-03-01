@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ProteinTranslationTest	../protein_translation_test.py	/^class ProteinTranslationTest(unittest.TestCase):$/;"	kind:class	line:8
+protein_translation.py	../protein_translation.py	1;"	kind:file	line:1
+protein_translation_test.py	../protein_translation_test.py	1;"	kind:file	line:1
+proteins	../protein_translation.py	/^def proteins(strand):$/;"	kind:function	line:1
+test_AUG_translates_to_methionine	../protein_translation_test.py	/^    def test_AUG_translates_to_methionine(self):$/;"	kind:member	line:10
+test_identifies_Cysteine_codons	../protein_translation_test.py	/^    def test_identifies_Cysteine_codons(self):$/;"	kind:member	line:29
+test_identifies_Leucine_codons	../protein_translation_test.py	/^    def test_identifies_Leucine_codons(self):$/;"	kind:member	line:17
+test_identifies_Phenylalanine_codons	../protein_translation_test.py	/^    def test_identifies_Phenylalanine_codons(self):$/;"	kind:member	line:13
+test_identifies_Serine_codons	../protein_translation_test.py	/^    def test_identifies_Serine_codons(self):$/;"	kind:member	line:21
+test_identifies_Tryptophan_codons	../protein_translation_test.py	/^    def test_identifies_Tryptophan_codons(self):$/;"	kind:member	line:33
+test_identifies_Tyrosine_codons	../protein_translation_test.py	/^    def test_identifies_Tyrosine_codons(self):$/;"	kind:member	line:25
+test_identifies_stop_codons	../protein_translation_test.py	/^    def test_identifies_stop_codons(self):$/;"	kind:member	line:36
+test_stops_translation_if_stop_codon_at_beginning_of_sequence	../protein_translation_test.py	/^    def test_stops_translation_if_stop_codon_at_beginning_of_sequence(self):$/;"	kind:member	line:45
+test_stops_translation_if_stop_codon_at_end_of_three_codon_sequence	../protein_translation_test.py	/^    def test_stops_translation_if_stop_codon_at_end_of_three_codon_sequence($/;"	kind:member	line:56
+test_stops_translation_if_stop_codon_at_end_of_two_codon_sequence	../protein_translation_test.py	/^    def test_stops_translation_if_stop_codon_at_end_of_two_codon_sequence($/;"	kind:member	line:50
+test_stops_translation_if_stop_codon_in_middle_of_six_codon_sequence	../protein_translation_test.py	/^    def test_stops_translation_if_stop_codon_in_middle_of_six_codon_sequence($/;"	kind:member	line:68
+test_stops_translation_if_stop_codon_in_middle_of_three_codon_sequence	../protein_translation_test.py	/^    def test_stops_translation_if_stop_codon_in_middle_of_three_codon_sequence($/;"	kind:member	line:62
+test_translates_rna_strand_into_correct_protein_list	../protein_translation_test.py	/^    def test_translates_rna_strand_into_correct_protein_list(self):$/;"	kind:member	line:40
