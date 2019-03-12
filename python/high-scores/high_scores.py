@@ -9,7 +9,5 @@ class HighScores(object):
         return sorted(self.scores)[-1]
 
     def personal_top_three(self):
-        if len(self.scores) < 3:
-            return sorted(self.scores, reverse=True)
-        else:
-            return sorted(self.scores, reverse=True)[:3]
+        return sorted(self.scores, reverse=True)[:3]
+
