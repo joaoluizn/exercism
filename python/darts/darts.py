@@ -1,6 +1,7 @@
 import math
 
 def score(x, y):
+    """ Get Dart game score """
     distance = math.hypot(x, y)
     if distance <= 1:
         return 10
