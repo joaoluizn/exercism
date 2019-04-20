@@ -1,13 +1,5 @@
 def distance(strand_a :str, strand_b :str) -> int:
-    a_len = len(strand_a)
-    b_len = len(strand_b)
-
-    if a_len != b_len:
+    if len(strand_a) != len(strand_b):
         raise ValueError("Strand Lenths doesn't match.")
     else:
-        distance = 0
-        for k in range(a_len):
-            if strand_a[k] != strand_b[k]:
-                distance += 1
-        return distance
-
+        return len([k for k in zip(strand_a, strand_b) if k[0] != k[1]])
