@@ -1,6 +1,5 @@
 """ Bob Side Execise Solution """
 
-import re
 from functools import wraps
 
 
@@ -24,16 +23,14 @@ def response(hey_bob):
     :param hey_bob: A message for bob
      """
     answer = 'Whatever.'
-    is_upper_message = hey_bob.isupper()
-    is_question = len(hey_bob) > 0 and hey_bob[-1] == '?'
-
-    if is_upper_message and is_question:
-        answer = 'Calm down, I know what I\'m doing!'
-    elif is_question:
-        answer = 'Sure.'
-    elif is_upper_message:
-        answer = 'Whoa, chill out!'
-    elif re.findall("[\r\t]", hey_bob) or hey_bob == '':
+    if hey_bob == '':
         answer = 'Fine. Be that way!'
+    elif hey_bob.isupper():
+        if hey_bob[-1] == '?':
+            answer = 'Calm down, I know what I\'m doing!'
+        else:
+            answer = 'Whoa, chill out!'
+    elif hey_bob[-1] == '?':
+        answer = 'Sure.'
 
     return answer
