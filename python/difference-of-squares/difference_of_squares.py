@@ -1,4 +1,4 @@
-""" Module to calculate Difference of Squares """
+""" Module to calculate Difference of Squares - Complexity Time and Space O(1) """
 
 def square_of_sum(number: int) -> int:
     """ Calculate square of the sum of a sequence starting in 1 up to a given Number """
